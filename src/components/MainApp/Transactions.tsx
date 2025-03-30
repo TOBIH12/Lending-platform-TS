@@ -40,13 +40,15 @@ const sideNavSocials: Array[] = [
 const Transactions = () => {
     const [socials] = useState(sideNavSocials);
 
-    
+    const handleModalVisibility = () => {
+      console.log('clicked')}
+      const closeNav = () => {  console.log('clicked')}
     
     return (
       <section className="marketPage">
       <div className="sideNav">
         <div className="sideNavItems">
-        <SideNav image={Trillo} btnText="Connect wallet" sideNavSocials={socials}/>
+        <SideNav handleModalVisibility={handleModalVisibility} closeNav={closeNav} image={Trillo} btnText="Connect wallet" sideNavSocials={socials}/>
         </div>
         
       </div>

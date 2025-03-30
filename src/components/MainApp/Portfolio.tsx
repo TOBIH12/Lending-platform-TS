@@ -57,7 +57,7 @@ const Portfolio = () => {
       const [supplyModal, OpenSupplyModal] = useState<Boolean>(false)
       const [borrowModal, OpenBorrowModal] = useState<Boolean>(false)
       const [tokenBalance] = useState<number>(100)
-      const [borrowed, setBorrowed] = useState<number>(0)
+      const [borrowed] = useState<number>(0)
       const [supplyValue, setSupplyValue] = useState<number>()
       const [errorMessage, setErrorMessage] = useState<string>('')
       const [statusPercentage] = useState<number>(45)
@@ -133,7 +133,7 @@ const Portfolio = () => {
   </div> 
   }
 
-     { !openNav && <hr />}
+     { !openNav && <hr />} {openModal && <div className="modalPage"></div>}
 
   <div className="market">
   <div className="announcement">
