@@ -67,7 +67,7 @@ const ConnectWallet = ({ closeModal, Metamask, BSC, Group, handleCheckBox, check
      </div>
    
      <div className="policyTerms">
-       <Link>Accept</Link> Terms of Use. Privacy Policy, and <Link>Disclaimer</Link>
+       <Link to={''}>Accept</Link> Terms of Use. Privacy Policy, and <Link to={''}>Disclaimer</Link>
      </div>
    </div>
    
@@ -101,7 +101,7 @@ const ConnectWallet = ({ closeModal, Metamask, BSC, Group, handleCheckBox, check
                  </div>
  
                  <div className="newAccount">
-                     <Link>New Account</Link>
+                     <Link to={''}>New Account</Link>
                  </div>
              </div>
  
@@ -140,7 +140,7 @@ const ConnectWallet = ({ closeModal, Metamask, BSC, Group, handleCheckBox, check
              </div>
  
              <div className="learnMore">
-                 Only connect with sites you trust. <Link>Learn More</Link>
+                 Only connect with sites you trust. <Link to={''}>Learn More</Link>
              </div>
              </div>
  
@@ -184,7 +184,7 @@ const ConnectWallet = ({ closeModal, Metamask, BSC, Group, handleCheckBox, check
  
             
              <div className="learnMore">
-                 Only connect with sites you trust. <Link>Learn More</Link>
+                 Only connect with sites you trust. <Link to={''}>Learn More</Link>
              </div>
              </div>
  

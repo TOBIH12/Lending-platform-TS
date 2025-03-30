@@ -11,7 +11,7 @@ type Array = {
   added?: Boolean
   icon: ReactNode
   navText: String
-  link: String
+  link: string
 }
 
 

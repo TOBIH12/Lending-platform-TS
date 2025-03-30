@@ -13,7 +13,7 @@ interface Array{
   added?: Boolean
   icon:  ReactNode
   navText: String
-  link: String
+  link: string
 }
 
 interface Props{
